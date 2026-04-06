@@ -1,0 +1,27 @@
+site_name: TelePortraitLens document
+site_description: TelePortraitLens document
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+nav:
+  - ホーム: index.md
+  - 導入:
+      - インストール: install.md
+      - 初期設定: setup.md
+  - メニュー: 
+      - Top: menu/menu.md
+      - Lens: menu/Lens.md
+      - Drone: menu/Drone.md
+      - Behavior: menu/Behavior.md
+      - Setting: menu/Setting.md
+  - よくある質問: faq.md
