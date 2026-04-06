@@ -1,5 +1,6 @@
 site_name: TelePortraitLens document
 site_description: TelePortraitLens document
+site_url: https://skknyuki.github.io/TelePortraitLens/
 
 theme:
   name: material
