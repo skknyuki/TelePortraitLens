@@ -1,0 +1,40 @@
+body {
+  background-color: #b3b3b3;
+}
+
+.md-main {
+  background-color: #b3b3b3;
+}
+
+.md-content__inner {
+  background-color: #e6e6e6;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+/* 左右サイドバーの背景 */
+.md-sidebar,
+.md-sidebar__scrollwrap,
+.md-nav--primary,
+.md-sidebar--secondary,
+.md-nav--secondary {
+  background-color: #b3b3b3;
+}
+
+/* 左上タイトル */
+.md-nav--primary .md-nav__title[for="__drawer"] {
+  background-color: #b3b3b3;
+  box-shadow: none;
+  background-image: none;
+  border: 0;
+  color: #333333;
+}
+
+/* 右上タイトル */
+.md-nav--secondary .md-nav__title {
+  background-color: #b3b3b3;
+  box-shadow: none;
+  background-image: none;
+  border: 0;
+  color: #333333;
+}

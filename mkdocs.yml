@@ -6,7 +6,12 @@ theme:
   name: material
   features:
     - navigation.expand
+  palette:
+    primary: custom
 
+extra_css:
+  - stylesheets/extra.css
+  
 markdown_extensions:
   - pymdownx.critic
   - pymdownx.caret
@@ -15,14 +20,16 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - ホーム: index.md
-  - 導入:
-      - インストール: install.md
-      - 初期設定: setup.md
+  - はじまり: index.md
+  - インストール:
+      - 導入方法: install.md
+      - 撮影クオリティ: optional1.md
+  - 使用方法: howtouse.md
   - メニュー: 
       - Top: menu/menu.md
       - Lens: menu/Lens.md
+      - Preset: menu/Preset.md
       - Drone: menu/Drone.md
-      - Behavior: menu/Behavior.md
       - Setting: menu/Setting.md
   - よくある質問: faq.md
+  - 更新履歴: history.md
