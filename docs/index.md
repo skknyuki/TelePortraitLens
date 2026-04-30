@@ -20,3 +20,10 @@ Tele Portrait Lens は、**VRChat アバター向けのカメラギミック**�
 さらに、3つのカメラはそれぞれ個別に制御できます。  
 そのため、たとえば **背景だけ画角を変える**、  
 **前景を Screen 合成して水面表現を加える** といった演出も可能です。
+<br><br>
+  
+TPLサンプルアバター  
+[アバターLink](https://vrchat.com/home/avatar/avtr_5e1e31a7-6450-4c44-a2f7-247b82ba75a3)
+
+使用させていただいているアバター：  
+[ハオラン](https˸⁄⁄booth․pm⁄ja⁄items⁄3818504)
