@@ -26,4 +26,4 @@ TPLサンプルアバター
 [アバターLink](https://vrchat.com/home/avatar/avtr_5e1e31a7-6450-4c44-a2f7-247b82ba75a3)
 
 使用させていただいているアバター：  
-[ハオラン](https˸⁄⁄booth․pm⁄ja⁄items⁄3818504)
+[ハオラン]( https://booth.pm/ja/items/3818504 )
