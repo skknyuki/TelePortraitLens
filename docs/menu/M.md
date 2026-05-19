@@ -27,20 +27,23 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 - **[Fov [Fore]]** / **[Fov [Back]]**  
   これらを選択すると、対応する **[Sync]** は自動的に OFF になります。
 
-- **[Bokeh [Fore]]** / **[Bokeh [Back]]**
-  ボケの強さを変更します。
-
-
+<BR>
 
 ---
-## Back / Main / Fore 
+## Fov
+---
+メインカメラの FOV を変更できます。  
+
+<BR>
+---
+## Fore / Main / Back 
 ---
 
 ![](images/Lens_Unit_all.png)
 
 ### 共通設定
 
-#### CC
+#### Color Correction
 各カメラで画像補正が出来ます。  
 ![](images/Lens_CC.png)
 
@@ -52,9 +55,19 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 
 <BR>
 
+
+#### AutoLevel
+
+![](images/AutoLevel.png)
+  
+各カメラの傾きを **左・正面・右** に固定できます。
+
+<BR>
+
 #### WorldFix
 
-各カメラをワールドに固定できます。
+各カメラをワールドに固定できます。  
+(Mainだけは下記の様な設定項目に移らず、ワールドに固定されます。)
 
 ![](images/Lens_WorldFix.png)
 
@@ -63,35 +76,6 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 - **Hand** ： カメラを手元と同期します。
 
 <BR>
-
-#### AutoLevel
-
-![](images/AutoLevel.png)
-  
-各カメラの傾きを **左・正面・右** に固定できます。
-
----
-
-### Back
-
-#### Clip Adjust
-
-Back カメラの Far の位置を、手前側に微調整できます。
-
----
-
-### Main
-
-#### Show UI Layer
-
-ON にすると、UI Layer を描画できます。(メインのみ)
-
-<BR>
-
-#### Far Cliping 
-
-ON にすると、Mainカメラの **Far** が Backカメラの **Far** と同じになります。  
-Backカメラで遠景まで含めて、画面全体を写せるようになります。
 
 ---
 
@@ -109,7 +93,7 @@ Backカメラで遠景まで含めて、画面全体を写せるようになり�
 - **Screen** ：スクリーン
 - **Multiply** ：乗算
 
-- **Alfa** ：前景の透明度を変更できます
+- **Alpha** ：前景の透明度を変更できます
 
 ##### 補足
 
@@ -125,16 +109,45 @@ Fore カメラの Far の位置を、奥側へ微調整できます。
 
 <BR>
 
-#### Clipping Far Range
+#### Far Cliping
 
 ON にすると、Foreカメラの **Far** が Backカメラの **Far** と同じになります。  
-Foreカメラで遠景まで含めて、画面全体を写せるようになります。
+SkyBoxを含め、遠景全体を写せるようになります。
+
+
+---
+
+### Main
+
+#### Show UI Layer
+
+ON にすると、UI Layer を描画できます。(メインのみ)
+
+<BR>
+
+#### Far Cliping 
+
+ON にすると、Mainカメラの **Far** が Backカメラの **Far** と同じになります。  
+MainカメラではSkyboxは写りません。
+
+---
+
+### Back
+
+#### Clip Adjust
+
+Back カメラの Far の位置を、手前側に微調整できます。
+
+<BR>
+
+
 
 ---
 ## Focus
 ---
 
-ピントを合わせる距離と、ピントが合う範囲を調整できます。
+ピントを合わせる距離(フォーカス距離)と、ピントが合う範囲(フォーカス範囲)を  
+キーを入力する方向で調整できます。
 
 - **↑** / Farther：フォーカス距離を奥へ移動
 - **↓** / Closer ：フォーカス距離を手前へ移動

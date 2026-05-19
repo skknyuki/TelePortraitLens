@@ -24,11 +24,13 @@ nav:
   - インストール:
       - 導入方法: install.md
       - 撮影クオリティ: optional1.md
-  - 使用方法: howtouse.md
+  - 基本の撮影: howtouse1.md
+  - 特殊な撮影: howtouse2.md
   - メニュー: 
       - Top: menu/menu.md
-      - Lens: menu/Lens.md
       - Preset: menu/Preset.md
+      - P: menu/P.md
+      - M: menu/M.md
       - Drone: menu/Drone.md
       - Setting: menu/Setting.md
   - よくある質問: faq.md
