@@ -1,14 +1,15 @@
-# P
+# P - Program Settings
 
 ![](images/P.png)
 
 ---
-## Fov
----
+## FOV
+
 
 Mainカメラの視野角を変更できます。  
-Back,Foreの視野角も同じになります。(Syncを外していない場合は)
+Fore,Backの視野角も同じになります。(Syncを外していない場合は)
 FOVの設定範囲は **12mm ～ 1000mm** 相当です。
+
 
 - **0%** ：12mm
 - **25%** ：53mm
@@ -18,17 +19,17 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 
 <BR>
 
-
-## Bokeh[Fore]&[Back]
 ---
+## Bokeh[Fore]&[Back]
+
 
 ForeとBackのボケの強さを変更できます。
 
 <BR>
 
-
-## AutoLevel
 ---
+## AutoLevel
+
 
 ![](images/AutoLevel.png)
   
@@ -36,17 +37,17 @@ ForeとBackのボケの強さを変更できます。
 
 <BR>
 
-
-## WorldFix
 ---
+## WorldFix
+
 
 カメラをワールドに固定できます。
 
 <BR>
 
-
-## Focus
 ---
+## Focus
+
 
 ピントを合わせる距離(フォーカス距離)と、ピントが合う範囲(フォーカス範囲)を  
 キーを入力する方向で調整できます。
@@ -58,16 +59,18 @@ ForeとBackのボケの強さを変更できます。
 
 <BR>
 
-
-## Focus Range
 ---
+## Focus Range
+
 ![](images/Lens_ForcusRange.png)
 
 フォーカス距離を、一定の距離から選択できます。  
 フォーカス範囲は **約 1.5m** になります。
 
 ### AutoFocus
-VRCRaycastを使用して、カメラの中心部分にある **コライダー** にフォーカスを合わせます。  
+VRC Raycastを使用して  
+カメラの中心部分にある **コライダー** にフォーカスを合わせます。  
 VRChatの仕様により、自身かワールドのコライダーにしか反応しません。
 
-- *AF_DoF* はAF後のフォーカス範囲をある程度に設定できます。
+- AF_DoF では、AutoFocusのフォーカス範囲を調整できます。  
+値を大きくするとピントの合う範囲が広くなります。

@@ -1,11 +1,9 @@
-# Lens
+# M - Manual Settings
 
 ![](images/Lens_Top.png)
 
 ---
 ## Optics
----
-
 
 カメラの視野角やボケの強さを変更できます。  
 FOVの設定範囲は **12mm ～ 1000mm** 相当です。
@@ -24,20 +22,21 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 - **[Sync]**  
   ON 状態では、メインカメラの FOV と同期します。
 
-- **[Fov [Fore]]** / **[Fov [Back]]**  
+- **[FOV [Fore]]** / **[FOV [Back]]**  
   これらを選択すると、対応する **[Sync]** は自動的に OFF になります。
 
 <BR>
 
 ---
-## Fov
----
+## FOV
+
 メインカメラの FOV を変更できます。  
 
-<BR>
+<BR><BR>
+
 ---
 ## Fore / Main / Back 
----
+
 
 ![](images/Lens_Unit_all.png)
 
@@ -97,9 +96,12 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 
 ##### 補足
 
-- **Normal以外** を選択した場合、メインカメラの Far は Fore カメラの Far と同じになります。
-- **Normal** では透明度を変更できません。
-- **Normal** 選択時は、Depth がある部分は後方を上書きし、Depth がない部分は Screen 合成されます。
+- **Normal以外を** 選択した場合  
+メインカメラの Far は Fore カメラの Far と同じになります。
+- **Normal** 選択時は、透明度の変更はされません(100%固定)。
+- **Normal** 選択時は、  
+Depth がある部分では前景が通常合成されます。  
+Depth がない部分は Screen 合成として扱われます。
 
 <BR>
 
@@ -109,7 +111,7 @@ Fore カメラの Far の位置を、奥側へ微調整できます。
 
 <BR>
 
-#### Far Cliping
+#### Far Clipping
 
 ON にすると、Foreカメラの **Far** が Backカメラの **Far** と同じになります。  
 SkyBoxを含め、遠景全体を写せるようになります。
@@ -125,10 +127,10 @@ ON にすると、UI Layer を描画できます。(メインのみ)
 
 <BR>
 
-#### Far Cliping 
+#### Far Clipping
 
 ON にすると、Mainカメラの **Far** が Backカメラの **Far** と同じになります。  
-MainカメラではSkyboxは写りません。
+MainカメラではSkyBoxは写りません。
 
 ---
 
@@ -144,7 +146,7 @@ Back カメラの Far の位置を、手前側に微調整できます。
 
 ---
 ## Focus
----
+
 
 ピントを合わせる距離(フォーカス距離)と、ピントが合う範囲(フォーカス範囲)を  
 キーを入力する方向で調整できます。
@@ -158,7 +160,7 @@ Back カメラの Far の位置を、手前側に微調整できます。
 
 ---
 ## Focus Range
----
+
 ![](images/Lens_ForcusRange.png)
 
 フォーカス距離を、一定の距離から選択できます。  

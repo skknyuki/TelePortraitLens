@@ -7,7 +7,7 @@ Lens関連の設定をリセットします。
 (FovやFocusやBokehの設定など)  
 この項目を**長押し**で選択するとリセットが実行されます。  
 
-## Every FarClipping
+## Enable FarClipping
 [Fore]と[Main]の[**Far Clipping**]をONにします。  
 
 ## Screen
@@ -19,7 +19,7 @@ Lens関連の設定をリセットします。
 写真を暗くします。  
 
 ## Monotone[Fore,Back]
-[Fore]と[Main]の[Color Correction]-[**Saturation**]の値を**0%**にします。  
+[Fore]と[Back]の[Color Correction]-[**Saturation**]の値を**0%**にします。  
 前景と背景が白黒になります。  
 
 ## Reset Color Correction

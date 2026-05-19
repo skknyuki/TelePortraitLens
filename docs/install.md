@@ -7,7 +7,7 @@ Modular Avatar を導入してください。
 [Modular Avatar の導入はこちら](https://modular-avatar.nadena.dev/ja)  
 <br>
 2.  
-[GoatCannery]-[TelePortraitLens]にあるPrefab をアバター直下に配置してください。  
+[GoatCannery]-[TelePortraitLens]にあるPrefabをアバター直下に配置してください。  
 右利きの方は [TelePortraitLens] を使用してください。  
 左利きの方は [TelePortraitLens_Left] を配置してください。  
 ![](images/inst_01.jpg)
