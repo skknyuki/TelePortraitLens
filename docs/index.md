@@ -1,7 +1,7 @@
 # TelePortraitLens
 
 <p align="left">
-  <img src="images/index_logo.jpg" width="100%">
+  <img src="images/Index_logo.jpg" width="100%">
 </p>
 
 ## What's this Camera?
@@ -21,7 +21,7 @@ PCVRモードのみに対応してます
 デスクトップでは操作できません
 
 <p align="left">
-  <img src="images/index01.jpg" width="100%">
+  <img src="images/Index01.jpg" width="100%">
 </p>
 
 
