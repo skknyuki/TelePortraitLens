@@ -11,11 +11,11 @@ Lens関連の設定をリセットします。
 [Fore]と[Main]の[**Far Clipping**]をONにします。  
 
 ## Screen
-[Fore]-[LayerBlend]の[**Screen**]をOnにします。  
+[Fore]-[LayerBlend]の[**Screen**]をONにします。  
 写真を明るくします。  
 
 ## Multiply
-[Fore]-[LayerBlend]の[**Multiply**]をOnにします。  
+[Fore]-[LayerBlend]の[**Multiply**]をONにします。  
 写真を暗くします。  
 
 ## Monotone[Fore,Back]
