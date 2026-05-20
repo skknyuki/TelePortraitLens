@@ -38,3 +38,33 @@ body {
   border: 0;
   color: #333333;
 }
+
+/* Booth link button in left navigation */
+.md-nav__link[href*="booth.pm"] {
+  margin: 1.2rem 0.2rem 0.35rem 0.2rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #319204, #0d3d46);
+  color: #ffffff !important;
+  font-weight: 700;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.md-nav__link[href*="booth.pm"]::before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin: -0.65rem 0 0.65rem 0;
+  background: rgba(127, 127, 127, 0.25);
+}
+
+.md-nav__link[href*="booth.pm"]:hover {
+  background: #6a3df0;
+  color: #ffffff !important;
+}
+
+.md-nav__link[href*="booth.pm"] .md-ellipsis {
+  width: 100%;
+  text-align: center;
+}

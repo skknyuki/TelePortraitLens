@@ -36,7 +36,7 @@ Quest単体では使用できません。
 ## 購入前に必ずご確認ください
 
 TelePortraitLens は3つのカメラを使用する特殊なカメラギミックです。  
-ワールド、シェーダー、視界ハック系エフェクト、Post Effects の影響により、  
+ワールド、ミラー、シェーダー、視界ハック系エフェクト、Post Effects の影響により、  
 意図した通りに撮影できない場合があります。  
   
 購入前にサンプルアバターで動作をご確認ください。  
@@ -51,7 +51,7 @@ TPLサンプルアバター
 使用させていただいているアバター：-ハオラン-HAOLAN    
 [![ハオラン](images/HaolanKun.jpg)]( https://booth.pm/ja/items/3818504 )
 
-
+---
 
 ## 謝辞
 ドローン操作のシステムは  
@@ -60,3 +60,8 @@ suzuki_ithさんが制作したカメラドローン操作システムを
 誠にありがとうございます。  
   
 [【VRChat用】Integral カメラギミック](https://booth.pm/ja/items/4724145)
+
+---
+
+## 利用規約
+[https://drive.google.com/drive/folders/1RJgd3qXcjUUs4Ts88t982vXKnDEmWh2j?usp=sharing](https://drive.google.com/drive/folders/1RJgd3qXcjUUs4Ts88t982vXKnDEmWh2j?usp=sharing)

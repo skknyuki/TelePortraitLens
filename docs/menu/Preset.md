@@ -4,10 +4,10 @@
 
 ## Reset Lens
 Lens関連の設定をリセットします。  
-(FovやFocusやBokehの設定など)  
+(FOVやFocusやBokehの設定など)  
 この項目を**長押し**で選択するとリセットが実行されます。  
 
-## Enable FarClipping
+## Enable Far Clipping
 [Fore]と[Main]の[**Far Clipping**]をONにします。  
 
 ## Screen

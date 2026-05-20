@@ -16,7 +16,7 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 
 ![](images/Lens_Opticals.png)
 
-- **[Main Fov]**  
+- **[Main FOV]**  
   メインカメラの FOV を変更できます。
 
 - **[Sync]**  
@@ -43,7 +43,7 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 ### 共通設定
 
 #### Color Correction
-各カメラで画像補正が出来ます。  
+各カメラで画像補正ができます。  
 ![](images/Lens_CC.png)
 
 - **Exposure** : 露出
@@ -96,7 +96,7 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 
 ##### 補足
 
-- **Normal以外を** 選択した場合  
+- **Normal以外** を選択した場合  
 メインカメラの Far は Fore カメラの Far と同じになります。
 - **Normal** 選択時は、透明度の変更はされません(100%固定)。
 - **Normal** 選択時は、  

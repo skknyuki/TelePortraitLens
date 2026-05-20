@@ -25,7 +25,7 @@ VRCハンドカメラを出し、
 レンズを起動させるとVRCハンドカメラ上の画面が  
 TelePortraitLensの画面になります。  
   
-**Tele Portrait Lens**は３つのカメラを使用しています。
+**TelePortraitLens**は3つのカメラを使用しています。
 **前景（Fore）**・**メイン**・**背景（Back）**の3つを同時に撮影し  
 それを合成しています。
   
