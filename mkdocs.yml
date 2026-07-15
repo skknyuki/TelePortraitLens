@@ -32,6 +32,7 @@ nav:
       - P: menu/P.md
       - M: menu/M.md
       - Drone: menu/Drone.md
+      - Effect: menu/Effects.md
       - Setting: menu/Setting.md
   - よくある質問: faq.md
   - 更新履歴: history.md

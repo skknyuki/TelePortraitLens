@@ -42,19 +42,6 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 
 ### 共通設定
 
-#### Color Correction
-各カメラで画像補正ができます。  
-![](images/Lens_CC.png)
-
-- **Exposure** : 露出
-- **Contrast** : コントラスト
-- **Tone Curve** : トーンカーブ
-- **Natural Saturation** : 自然な彩度
-- **Saturation** : 彩度
-
-<BR>
-
-
 #### AutoLevel
 
 ![](images/AutoLevel.png)
@@ -79,31 +66,6 @@ FOVの設定範囲は **12mm ～ 1000mm** 相当です。
 ---
 
 ### Fore
-
-#### LayerBlend
-前景の合成モードを選択できます。
-
-![](images/Lens_Fore_Layer.png)
-
-- **None** ：前景を描画しません
-- **Add** ：加算
-- **Dodge** ：覆い焼きカラー
-- **Normal** ：通常合成
-- **Screen** ：スクリーン
-- **Multiply** ：乗算
-
-- **Alpha** ：前景の透明度を変更できます
-
-##### 補足
-
-- **Normal以外** を選択した場合  
-メインカメラの Far は Fore カメラの Far と同じになります。
-- **Normal** 選択時は、透明度の変更はされません(100%固定)。
-- **Normal** 選択時は、  
-Depth がある部分では前景が通常合成されます。  
-Depth がない部分は Screen 合成として扱われます。
-
-<BR>
 
 #### clip Adjust
 
@@ -164,11 +126,23 @@ Back カメラの Far の位置を、手前側に微調整できます。
 ![](images/Lens_ForcusRange.png)
 
 フォーカス距離を、一定の距離から選択できます。  
-フォーカス範囲は **約 1.5m** になります。
+フォーカス範囲は **約 1.5m** になります。  
+選択後の細かい調整は [Focus](#focus)で合わせます。
 
-### AutoFocus
-VRC Raycastを使用して、カメラの中心部分にある **コライダー** にフォーカスを合わせます。  
-VRChatの仕様により、自身かワールドのコライダーにしか反応しません。
+### Auto Focus
 
-- AF_DoF では、AutoFocusのフォーカス範囲を調整できます。  
-  値を大きくするとピントの合う範囲が広くなります。
+![](images/Lens_AutoFocus.png)
+
+AutoFocusを選択すると、利き手と逆の手に**ピンク色の球**が表示されます。  
+AutoFocus中は、この球とカメラの距離がフォーカス距離となります。  
+  
+- **AutoFocus Range** で、AutoFocus中のフォーカス範囲を調整できます。  
+値を大きくするとピントの合う範囲が広くなります。
+- **Look at AF** で、カメラが常にピンク級の方を向きます。
+- **AutoFocus Drone** で、ピンク球をドローンのように  
+好きな場所に移動させれます。
+- **AutoFocus worldFix**で、好きな場所にピンク球を置いたり  
+手元に引き寄せたり出来ます。
+  
+動かし方はカメラのドローンとほぼ同じです。  
+回転機能はありません。

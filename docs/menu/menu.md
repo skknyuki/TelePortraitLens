@@ -17,12 +17,11 @@ TelePortraitLensを起動します
 [Manual]  
 Fore / Main / Back それぞれの設定を細かく調整するための詳細メニューです。
 
-
 ## Drone Behavior
 ドローン移動や、カメラ向きの固定に関する設定を行えます。
 
-## WorldFix
-カメラを空中に固定できます。
+## Effects
+画面効果を選択できます。
 
 ## Setting
 カメラの持ち位置やグリッドなどの設定ができます。

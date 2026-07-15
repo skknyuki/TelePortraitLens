@@ -43,8 +43,8 @@ TelePortraitLens は3つのカメラを使用する特殊なカメラギミッ�
 
 サンプル版は、解像度を製品版の半分である1920x1080にしております。  
  
-TPLサンプルアバター  
-[![アバターLink](images/Link.gif)](https://vrchat.com/home/avatar/avtr_5e1e31a7-6450-4c44-a2f7-247b82ba75a3)  
+FFEL&TPLサンプルアバター  
+[![アバターLink](images/Link.gif)](https://vrchat.com/home/avatar/avtr_6ba90597-764d-422c-8c3d-a014b209fbef)  
 
 
 
