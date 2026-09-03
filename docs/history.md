@@ -1,5 +1,7 @@
 # History
 
+### 26/09/04
+    - AutoFocusバグ修正
 ### 26/06/27
     - AutoFocus機能を更新
     - メニュー位置調整
